@@ -5,14 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet"> -->
-
-
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles/style.css">
   <title>sc_m_v1</title>
@@ -25,10 +20,10 @@
 
     <code>
 
-      <span class="key indent-0">semantic_model</span><span class="punct">: {</span>
+      <span class="block indent-0"><span class="key">semantic_model</span><span class="punct">: {</span></span>
 
         <!-- === :meta section === -->
-        <span class="key indent-1">:meta</span><span class="punct">: {</span>
+        <span class="block indent-1"></span><span class="key indent-1">:meta</span><span class="punct">: {</span></span>
           <span class="block indent-2"><span class="key">purpose</span><span class="punct">:</span><span class="text">Создать инструмент для разбора и практики мышления как системы — через ключевые механизмы научного метода : вопрос, сомнение, гипотеза, проверка, модель и прочие. Это не курс о науке, а гайд по мышлению как инженерной работе со смыслом.</span></span>
          <!-- ORIENTENTION -->
           <span class="block indent-2"><span class="key">orientation</span><span class="punct">:</span> <span class="text">Не для тех, кто работает в науке, а для тех, кто хочет мыслить точнее. Здесь научный метод подаётся как способ видеть структуру, строить осмысленные ходы, проверять свои представления и формировать новые — в любой сфере жизни.</span></span>
@@ -71,23 +66,28 @@
       <span class="block indent-2"><span class="punct">},</span></span>
       <!-- Что заставляет нас искать смысл и ответы? -->
       <span class="block indent-2"><span class="string">"Что заставляет нас искать смысл и ответы?"</span><span class="punct">: {</span></span>
-        <span class="block indent-3"><span class="key">description</span><span class="punct">:</span> <span class="text">Мотивационные состояния и потребности, которые превращают неопределенность в вопрос, а незнание — в познание</span></span>
+        <span class="block indent-3"><span class="key">description</span><span class="punct">:</span> <span class="text">Мотивационные состояния и потребности, которые превращают неопределенность в вопрос, а незнание — в познание,</span></span>
         <span class="block indent-3"><span class="key">nodes</span><span class="punct">: [</span></span>
-          <span class="block indent-4"><span class="punct">{</span><span class="key">concept</span><span class="punct">:</span> <span class="concept">`Любопытство</span><span class="punct">,</span> <span class="key">definition</span><span class="punct">:</span> <span class="text">стремление понять и узнать новое</span><span class="punct">},</span></span>
-          <span class="block indent-4"><span class="punct">{</span><span class="key">concept</span><span class="punct">:</span> <span class="concept">`Сомнение</span><span class="punct">,</span> <span class="key">definition</span><span class="punct">:</span> <span class="text">недоверие к существующим объяснениям</span><span class="punct">},</span></span>
-          <span class="block indent-4"><span class="punct">{</span><span class="key">concept</span><span class="punct">:</span> <span class="concept">`Потребность в смысле</span><span class="punct">,</span> <span class="key">definition</span><span class="punct">:</span> <span class="text">желание связать факты в целостную картину</span><span class="punct">}</span></span>
+          <span class="block indent-4"><span class="punct">{</span><span class="key">concept</span><span class="punct">:</span> <span class="concept">`Выживание</span><span class="punct">,</span> <span class="key">definition</span><span class="punct">:</span> <span class="text">базовая потребность адаптироваться к среде</span><span class="punct">},</span></span>
+          <span class="block indent-4"><span class="punct">{</span><span class="key">concept</span><span class="punct">:</span> <span class="concept">`Прогнозирование</span><span class="punct">,</span> <span class="key">definition</span><span class="punct">:</span> <span class="text">стремление предвидеть развитие событий</span><span class="punct">},</span></span>
+          <span class="block indent-4"><span class="punct">{</span><span class="key">concept</span><span class="punct">:</span> <span class="concept">`Контроль</span><span class="punct">,</span> <span class="key">definition</span><span class="punct">:</span> <span class="text">желание управлять ситуацией или процессом</span><span class="punct">},</span></span>
+          <span class="block indent-4"><span class="punct">{</span><span class="key">concept</span><span class="punct">:</span> <span class="concept">`Любопытство</span><span class="punct">,</span> <span class="key">definition</span><span class="punct">:</span> <span class="text">внутренняя тяга к новому и непонятному</span><span class="punct">},</span></span>
+          <span class="block indent-4"><span class="punct">{</span><span class="key">concept</span><span class="punct">:</span> <span class="concept">`Беспокойство</span><span class="punct">,</span> <span class="key">definition</span><span class="punct">:</span> <span class="text">аффективная реакция на неопределённость</span><span class="punct">},</span></span>
+          <span class="block indent-4"><span class="punct">{</span><span class="key">concept</span><span class="punct">:</span> <span class="concept">`Желание-истины</span><span class="punct">,</span> <span class="key">definition</span><span class="punct">:</span> <span class="text">стремление к ясности и соответствию реальности</span><span class="punct">}</span></span>
         <span class="block indent-3"><span class="punct">]</span></span>
       <span class="block indent-2"><span class="punct">},</span></span>
-
+     <!-- Как мы пытались справиться с неопределённостью до науки? -->
       <span class="block indent-2"><span class="string">"Как мы пытались справиться с неопределённостью до науки?"</span><span class="punct">: {</span></span>
-        <span class="block indent-3"><span class="key">description</span><span class="punct">:</span> <span class="text">Когнитивные и культурные практики до появления научного метода</span></span>
+        <span class="block indent-3"><span class="key">description</span><span class="punct">:</span> <span class="text">Когнитивные и культурные практики, через которые человек исторически искал объяснения и контроль над реальностью, до появления научного метода,</span></span>
         <span class="block indent-3"><span class="key">nodes</span><span class="punct">: [</span></span>
-          <span class="block indent-4"><span class="punct">{</span><span class="key">concept</span><span class="punct">:</span> <span class="concept">`Мифология</span><span class="punct">,</span> <span class="key">definition</span><span class="punct">:</span> <span class="text">объяснения мира через символы и истории</span><span class="punct">},</span></span>
-          <span class="block indent-4"><span class="punct">{</span><span class="key">concept</span><span class="punct">:</span> <span class="concept">`Ритуалы</span><span class="punct">,</span> <span class="key">definition</span><span class="punct">:</span> <span class="text">повторяющиеся действия для контроля неопределённости</span><span class="punct">},</span></span>
-          <span class="block indent-4"><span class="punct">{</span><span class="key">concept</span><span class="punct">:</span> <span class="concept">`Авторитет</span><span class="punct">,</span> <span class="key">definition</span><span class="punct">:</span> <span class="text">принятие знаний на основе доверия к источнику</span><span class="punct">}</span></span>
+          <span class="block indent-4"><span class="punct">{</span><span class="key">concept</span><span class="punct">:</span> <span class="concept">`Суеверие</span><span class="punct">,</span> <span class="key">definition</span><span class="punct">:</span> <span class="text">вера в причинно-следственные связи без эмпирического основания</span><span class="punct">},</span></span>
+          <span class="block indent-4"><span class="punct">{</span><span class="key">concept</span><span class="punct">:</span> <span class="concept">`Мифология</span><span class="punct">,</span> <span class="key">definition</span><span class="punct">:</span> <span class="text">символическое объяснение устройства мира через нарратив</span><span class="punct">},</span></span>
+          <span class="block indent-4"><span class="punct">{</span><span class="key">concept</span><span class="punct">:</span> <span class="concept">`Гадание</span><span class="punct">,</span> <span class="key">definition</span><span class="punct">:</span> <span class="text">практика поиска смысла и прогнозов через интерпретацию случайных знаков</span><span class="punct">},</span></span>
+          <span class="block indent-4"><span class="punct">{</span><span class="key">concept</span><span class="punct">:</span> <span class="concept">`Магическое-мышление</span><span class="punct">,</span> <span class="key">definition</span><span class="punct">:</span> <span class="text">убеждённость, что мысль или ритуал могут напрямую влиять на реальность</span><span class="punct">},</span></span>
+          <span class="block indent-4"><span class="punct">{</span><span class="key">concept</span><span class="punct">:</span> <span class="concept">`Традиционное-знание</span><span class="punct">,</span> <span class="key">definition</span><span class="punct">:</span> <span class="text">передаваемые схемы интерпретации без систематической проверки</span><span class="punct">}</span></span>
         <span class="block indent-3"><span class="punct">]</span></span>
       <span class="block indent-2"><span class="punct">},</span></span>
-
+      <!-- Как оформлялся переход к научному способу мышления? -->
       <span class="block indent-2"><span class="string">"Как оформлялся переход к научному способу мышления?"</span><span class="punct">: {</span></span>
         <span class="block indent-3"><span class="key">description</span><span class="punct">:</span> <span class="text">Промежуточные формы рассуждения между мифом и наукой</span></span>
         <span class="block indent-3"><span class="key">nodes</span><span class="punct">: [</span></span>
