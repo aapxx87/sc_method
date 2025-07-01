@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", serif;
+  /* font-family: 'Fira Code', monospace; */
+  background-color: rgb(43, 43, 43);
+  color: #ccc;
+  /* padding: 10px; */
+}
+
+
+.code-block {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  /* background-color: rgb(43, 43, 43); */
+  padding: 0.5rem;
+  border-radius: 10px;
+  overflow-x: auto;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.code-block .indent-0 {
+  padding-left: 0rem;
+}
+
+.code-block .indent-1 {
+  padding-left: 1rem;
+}
+
+.code-block .indent-2 {
+  padding-left: 2rem;
+}
+
+.code-block .indent-3 {
+  padding-left: 3rem;
+}
+
+.code-block .indent-4 {
+  padding-left: 4rem;
+}
+
+.punct {
+  color: #fb677f;
+}
+
+.key {
+  color: rgb(255, 198, 110);
+}
+
+.text {
+  color: #cbcfd8;
+}
+
+.string {
+  color: rgb(165, 194, 96);
+}
+
+.comment {
+  color: #929292;
+  font-style: italic;
+}
+
+.operator {
+  color: #00BFFF;
+  font-weight: bold;
+}
+
+.concept {
+  color: rgb(197, 134, 192);
+  font-weight: bold;
+}
+
+.tag {
+  color: #7FFF00;
+  font-weight: bold;
+}
+
+.role {
+  color: #b89bdc;
+}
+
+.heading {
+  color: #c586c0;
+}
+
+.bool-true {
+  color: #a6c260;
+}
+
+.bool-false {
+  color: #E06C75;
+}
+
+.codeword {
+  color: #c586c0;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.code-block span.block {
+  display: block;
+  margin-bottom: -25px;
+}
+
+.code-block span.inline {
+  display: inline;
+}
+
+.code-block span {
+  line-height: 1.1;
+}
+
+.code-block span.text {
+  line-height: 1.3;
+}
