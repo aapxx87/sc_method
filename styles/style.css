@@ -122,5 +122,9 @@ body {
 }
 
 .code-block span.text {
-  line-height: 1.4;
+  line-height: 1.5;
+}
+
+.block span.text {
+  line-height: 1.7;
 }
