@@ -110,7 +110,10 @@ body {
 
 .code-block span.block {
   display: block;
-  margin-bottom: -25px;
+  line-height: 1.7;
+  /* регулируй: 1.3–1.6 по вкусу */
+  margin-bottom: -30px;
+  /* можно убрать вообще */
 }
 
 .code-block span.inline {
@@ -123,8 +126,4 @@ body {
 
 .code-block span.text {
   line-height: 1.5;
-}
-
-.block span.text {
-  line-height: 1.7;
 }
