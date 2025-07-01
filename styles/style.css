@@ -23,11 +23,12 @@ body {
   word-wrap: break-word;
   /* background-color: rgb(43, 43, 43); */
   padding: 0.5rem;
-  border-radius: 10px;
   overflow-x: auto;
   font-size: 14px;
   line-height: 1.2;
-  font-family: 'Fira Code', monospace;
+  /* font-family: 'Fira Code', monospace; */
+  border-left: 1px solid rgb(75, 75, 75);
+  border-right: 1px solid rgb(75, 75, 75);
 }
 
 .code-block .indent-0 {
