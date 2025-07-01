@@ -32,19 +32,19 @@ body {
 }
 
 .code-block .indent-1 {
-  padding-left: 1rem;
+  padding-left: 0.5rem;
 }
 
 .code-block .indent-2 {
-  padding-left: 2rem;
+  padding-left: 1.3rem;
 }
 
 .code-block .indent-3 {
-  padding-left: 3rem;
+  padding-left: 2.3rem;
 }
 
 .code-block .indent-4 {
-  padding-left: 4rem;
+  padding-left: 3.3rem;
 }
 
 .punct {
