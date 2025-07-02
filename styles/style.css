@@ -154,6 +154,20 @@ body {
   padding-right: 10px;
 }
 
+.bread_cumbs {
+  max-width: 900px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border-left: 1px solid rgba(232, 177, 94, .15); */
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  font-size: 14px;
+  color: rgba(232, 177, 94, .7);
+
+}
+
 
 
 
@@ -257,7 +271,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 15px;
-  border-bottom: 1px solid rgba(232, 177, 94, .15);
+  border-bottom: 1px solid c;
 
 }
 
@@ -267,17 +281,24 @@ body {
 
 
 .link-box {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .sub1-link-box {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 20px;
 }
 
 .sub2-link-box {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 40px;
+}
+
+.line-deco {
+  width: 95%;
+  height: 1px;
+  background-color: rgba(232, 177, 94, .2);
+  margin-top: 10px;
 }
 
 
