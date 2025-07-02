@@ -28,6 +28,12 @@ body {
   border-right: 1px solid rgba(232, 177, 94, .1);
   margin-top: 20px;
   background-color: #2a2929;
+  height: 100vh;
+}
+
+.code-block::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari и Edge */
 }
 
 .code-block .indent-0 {
@@ -183,7 +189,7 @@ body {
 
 
 .navbar-container {
-  display: none;
+  /* display: none; */
   z-index: 2;
 
   position: fixed;
