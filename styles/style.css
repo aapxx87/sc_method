@@ -183,7 +183,7 @@ body {
 
 
 .navbar-container {
-  display: block;
+  display: none;
   z-index: 2;
 
   position: fixed;
@@ -221,18 +221,18 @@ body {
   height: 25px;
 
   border-radius: 50%;
-  border: 1px solid rgb(179, 122, 15);
+  border: 1px solid rgba(179, 122, 15, .8);
 }
 
 .hide-navbar-btn .arrow {
-  color: rgb(179, 122, 15);
+  color: rgba(179, 122, 15, .8);
 }
 
 .show-navbar-btn {
   position: fixed;
   z-index: 2;
   top: 8px;
-  left: 20px;
+  right: 20px;
 
   display: flex;
   align-items: center;
@@ -242,15 +242,15 @@ body {
   height: 25px;
 
   border-radius: 50%;
-  border: 1px solid rgb(179, 122, 15);
+  border: 1px solid rgba(179, 122, 15, .8);
 
 }
 
 .arrow {
   display: inline-block;
   transform: translateX(-3px);
-  transform: translateY(-2px);
-  color: rgb(179, 122, 15);
+  transform: translateY(-1px);
+  color: rgba(179, 122, 15, .8);
   font-size: 24px;
 }
 
