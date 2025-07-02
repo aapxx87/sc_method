@@ -19,14 +19,15 @@ body {
   margin-right: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
-  /* background-color: rgb(43, 43, 43); */
   padding: 0.5rem;
   overflow-x: auto;
   font-size: 14px;
   line-height: 1.2;
   /* font-family: 'Fira Code', monospace; */
-  border-left: 1px solid rgba(232, 177, 94, .15);
-  border-right: 1px solid rgba(232, 177, 94, .15);
+  border-left: 1px solid rgba(232, 177, 94, .1);
+  border-right: 1px solid rgba(232, 177, 94, .1);
+  margin-top: 20px;
+  background-color: #2a2929;
 }
 
 .code-block .indent-0 {
@@ -132,6 +133,35 @@ body {
 
 
 
+
+/* ---------------------  */
+/* ? ------ HEADER BAR ------ */
+/* ---------------------  */
+
+
+
+.header-bar-container {
+  position: fixed;
+  top: 0;
+  left: 10px;
+  width: 99%;
+  height: 41px;
+  background-color: #272626;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  border-bottom: 1px solid rgba(232, 177, 94, .15);
+  z-index: 1;
+  padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
 /* ---------------------  */
 /* ? ------ NAVBAR ------ */
 /* ---------------------  */
@@ -140,20 +170,21 @@ body {
 
 .navbar-container {
   display: block;
+  z-index: 2;
 
   position: fixed;
   top: 0;
   left: 0;
 
-  width: 250px;
+  width: 260px;
   height: 100vh;
 
   background-color: #272626;
   padding: 10px;
   padding-right: 0;
   padding-top: 0;
-  margin-top: 10px;
-  font-size: 13px;
+  /* margin-top: 10px; */
+  font-size: 14px;
   color: rgb(232, 177, 94);
   border-right: 1px solid rgba(232, 177, 94, .15);
 }
@@ -176,17 +207,18 @@ body {
   height: 25px;
 
   border-radius: 50%;
-  border: 1px solid rgba(39, 38, 38, .6);
+  border: 1px solid rgb(179, 122, 15);
 }
 
 .hide-navbar-btn .arrow {
-  color: rgba(39, 38, 38, .6);
+  color: rgb(179, 122, 15);
 }
 
 .show-navbar-btn {
-  position: absolute;
-  top: 10px;
-  left: 10px;
+  position: fixed;
+  z-index: 2;
+  top: 8px;
+  left: 20px;
 
   display: flex;
   align-items: center;
@@ -196,7 +228,7 @@ body {
   height: 25px;
 
   border-radius: 50%;
-  border: 1px solid rgba(232, 177, 94, .8);
+  border: 1px solid rgb(179, 122, 15);
 
 }
 
@@ -204,7 +236,7 @@ body {
   display: inline-block;
   transform: translateX(-3px);
   transform: translateY(-2px);
-  color: rgba(232, 177, 94, .8);
+  color: rgb(179, 122, 15);
   font-size: 24px;
 }
 
@@ -217,13 +249,16 @@ body {
 .navbar--header {
   padding: 10px 0;
   padding-left: 10px;
-  background-color: rgba(198, 131, 7, 0.9);
-  border-top-left-radius: 20px;
+  background-color: rgba(232, 177, 94, .05);
 
-  color: #272626;
+  /* border-top-left-radius: 20px; */
+
+  color: rgb(232, 177, 94);
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 15px;
+  border-bottom: 1px solid rgba(232, 177, 94, .15);
+
 }
 
 
