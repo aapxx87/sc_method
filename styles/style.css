@@ -60,6 +60,10 @@ body {
   padding-left: 4.3rem;
 }
 
+.code-block .indent-6 {
+  padding-left: 5.2rem;
+}
+
 .punct {
   color: #fb677f;
 }
