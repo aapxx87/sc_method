@@ -29,6 +29,7 @@ body {
   margin-top: 20px;
   background-color: #2a2929;
   height: 100vh;
+
 }
 
 .code-block::-webkit-scrollbar {
@@ -69,8 +70,8 @@ body {
 }
 
 .key {
-  /* color: rgb(255, 198, 110); */
   color: rgb(232, 177, 94);
+  font-weight: 500;
 }
 
 .text {
@@ -140,6 +141,14 @@ body {
 .code-block span.text {
   line-height: 1.5;
 }
+
+
+
+
+
+
+
+
 
 
 
